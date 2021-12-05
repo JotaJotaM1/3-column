@@ -1,0 +1,77 @@
+@import url("https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro&family=Big+Shoulders+Display:wght@700&family=Lexend+Deca&display=swap");
+
+body {
+  font-family: "Lexend Deca", sans-serif;
+}
+
+.container {
+  display: flex;
+}
+
+.cardOne {
+  background-color: hsl(31, 77%, 52%);
+  padding: 2rem;
+  
+}
+
+.cardTwo {
+  background-color: hsl(184, 100%, 22%);
+  padding: 2rem;
+}
+
+.cardThree {
+  background-color: hsl(179, 100%, 13%);
+  padding: 2rem;
+}
+
+.car {
+  opacity: hsla(0, 0%, 100%, 0.75);
+}
+
+h2 {
+  color: white;
+  font-family: "Big Shoulders Display";
+}
+
+p {
+  color: hsla(0, 0%, 100%, 0.75);
+}
+
+.buttonOne {
+  padding: 1rem 1.5rem;
+  background-color: white;
+  color: hsl(31, 77%, 52%);
+  border-radius: 2rem;
+  border-style: none;
+  margin: 2rem 0 2rem 0;
+  cursor: pointer;
+
+}
+
+.buttonTwo {
+  padding: 1rem 1.5rem;
+  background-color: white;
+  color: hsl(184, 100%, 22%);
+  border-radius: 2rem;
+  border-style: none;
+  margin: 2rem 0 2rem 0;
+  cursor: pointer;
+}
+
+.buttonThree {
+  padding: 1rem 1.5rem;
+  background-color: white;
+  color: hsl(179, 100%, 13%);
+  border-radius: 2rem;
+  border-style: none;
+  margin: 2rem 0 2rem 0;
+  cursor: pointer;
+}
+
+@media (max-width: 375px) {
+  .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+}
