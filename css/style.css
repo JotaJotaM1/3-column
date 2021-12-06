@@ -73,14 +73,23 @@ p {
   cursor: pointer;
 }
 
-@media (max-width: 375px) {
+@media (max-width: 480px) {
   .container {
     display: flex;
     flex-direction: column;
     align-items: center;
   }
 
-  .container{
-      margin:auto;
+  .container {
+    margin: auto;
+  }
+  .cardOne {
+    border-top-left-radius: 1rem;
+    border-top-right-radius: 1rem;
+    border-bottom-left-radius: 0;
+  }
+  .cardThree {
+    border-bottom-left-radius: 1rem;
+    border-top-right-radius: 0;
   }
 }
